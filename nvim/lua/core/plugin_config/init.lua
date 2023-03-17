@@ -11,4 +11,7 @@ require("core.plugin_config.fzf-lua")
 -- require("core.plugin_config.nvim-autopairs")
 require("core.plugin_config.bufferline")
 require("core.plugin_config.toggleterm")
+require("core.plugin_config.auto-save")
+
+
 

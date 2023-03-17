@@ -1,0 +1,12 @@
+font_family      Fira Code
+bold_font        Fira Code
+italic_font      Fira Code
+bold_italic_font Fira Code
+font_size 14.0
+
+cursor_shape beam
+cursor_beam_thickness 1.5
+
+open_url_with default
+
+
