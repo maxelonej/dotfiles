@@ -14,7 +14,7 @@ zsh add-ons: [zinit](https://github.com/zdharma-continuum/zinit), [powerlevel10k
 
 1. Install packages
   ```bash
-  sudo pacman -S git alacritty zsh stow neovim eza bat fzf
+  sudo pacman -S git alacritty zsh stow neovim eza bat fzf fd ripgrep
   ```
 2. Optional: Backup directories that will be changed
   ```bash
