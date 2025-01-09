@@ -92,6 +92,7 @@ alias ll='eza --icons=always --color=always -la'
 alias c='clear'
 alias nv='nvim'
 alias py='python3'
+alias anime='ani-cli'
 
 # Shell integrations
 eval "$(fzf --zsh)"
