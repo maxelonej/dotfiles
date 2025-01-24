@@ -23,4 +23,6 @@ keymap.set("n", "<c-n>", ":Neotree float reveal toggle<CR>", opts)
 keymap.set("n", "<leader>e", ":Neotree float reveal toggle<CR>", opts)
 keymap.set("n", "<leader>n", ":Neotree float reveal toggle<CR>", opts)
 
+-- Close current buffer
+keymap.set("n", "<C-b>", ":bdelete<CR>", opts)
 -- }
