@@ -93,6 +93,7 @@ alias c='clear'
 alias nv='nvim'
 alias py='python3'
 alias anime='ani-cli'
+alias live='live-server'
 
 # Shell integrations
 eval "$(fzf --zsh)"
