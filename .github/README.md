@@ -18,7 +18,7 @@ zsh add-ons: [zinit](https://github.com/zdharma-continuum/zinit), [powerlevel10k
 1. Install packages
 
 ```bash
-sudo pacman -S git alacritty zsh stow neovim eza bat fzf fd ripgrep
+sudo pacman -S git alacritty zsh stow neovim eza bat fzf fd ripgrep zoxide
 ```
 
 2. Optional: Backup directories that will be changed (if you want to stow all dotfiles)
