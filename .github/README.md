@@ -56,6 +56,14 @@ bash -c "$(curl --fail --show-error --silent --location https://raw.githubuserco
 zinit self-update
 ```
 
+6. To make tmux plugins work, need to install tpm and run installer:
+
+```sh
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+cd ~/.tmux/plugins/tpm/scripts/
+./install_plugins.sh
+```
+
 </details>
 
 <details close><summary><samp>Shortcuts</samp></summary><br>
