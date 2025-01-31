@@ -12,8 +12,13 @@
 
 zsh add-ons: [zinit](https://github.com/zdharma-continuum/zinit), [powerlevel10k](https://github.com/romkatv/powerlevel10k), [syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/tree/master), [auto suggestions](https://github.com/zsh-users/zsh-autosuggestions), [completions](https://github.com/zsh-users/zsh-completions), [fzf tab](https://github.com/Aloxaf/fzf-tab)
 
+[gnome exts](https://extensions.gnome.org/):
+
+- user exts: [window thumbnails](https://extensions.gnome.org/extension/6816/wtmb-window-thumbnails), [hanabi](https://github.com/jeffshee/gnome-ext-hanabi)
+- system exts: [Dash to Dock](https://micheleg.github.io/dash-to-dock/), [Gnome 4x UI Improvements](https://github.com/axxapy/gnome-ui-tune?tab=readme-ov-file), [Gtk4 Desktop Icons NG (DING)](https://gitlab.com/smedius/desktop-icons-ng), [Native Window Placement](https://gitlab.gnome.org/GNOME/gnome-shell-extensions), [Removable Drive Menu](https://gitlab.gnome.org/GNOME/gnome-shell-extensions), [Space Bar](https://github.com/christopher-l/space-bar)
+
 <details close>
-<summary><samp>Setup</samp></summary><br>
+<summary><samp>Setup (Arch based)</samp></summary><br>
 
 1. Install packages
 
