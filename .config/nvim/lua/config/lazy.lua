@@ -17,7 +17,7 @@ vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
   spec = {
     -- add LazyVim and import its plugins
-    { "LazyVim/LazyVim", import = "lazyvim.plugins", opts = { colorscheme = "kanagawa-dragon" } },
+    { "LazyVim/LazyVim", import = "lazyvim.plugins", opts = { colorscheme = "tokyonight-night" } },
     -- import/override with your plugins
     { import = "lazyvim.plugins.extras.linting.eslint" },
     { import = "lazyvim.plugins.extras.formatting.prettier" },
@@ -41,7 +41,7 @@ require("lazy").setup({
     rocks = false,
     rocks = { enabled = false },
   },
-  install = { colorscheme = { "kanagawa" } },
+  -- install = { colorscheme = { "kanagawa" } },
   checker = {
     enabled = true, -- check for plugin updates periodically
     notify = false, -- notify on update
