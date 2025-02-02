@@ -33,7 +33,7 @@ sudo pacman -S git alacritty zsh stow neovim eza bat fzf fd ripgrep zoxide
 Ubuntu:
 
 ```bash
-sudo apt install zsh neovim eza bat fzf fd-find ripgrep zoxide
+sudo apt install git alacritty zsh stow neovim eza bat fzf fd-find ripgrep zoxide
 ```
 
 2. Optional: Backup directories that will be changed (if you want to stow all dotfiles)
