@@ -15,7 +15,7 @@ zsh add-ons: [zinit](https://github.com/zdharma-continuum/zinit), [powerlevel10k
 [gnome exts](https://extensions.gnome.org/):
 
 - user exts: [window thumbnails](https://extensions.gnome.org/extension/6816/wtmb-window-thumbnails), [hanabi](https://github.com/jeffshee/gnome-ext-hanabi)
-- system exts: [Dash to Dock](https://micheleg.github.io/dash-to-dock/), [Gnome 4x UI Improvements](https://github.com/axxapy/gnome-ui-tune?tab=readme-ov-file), [Gtk4 Desktop Icons NG (DING)](https://gitlab.com/smedius/desktop-icons-ng), [Native Window Placement](https://gitlab.gnome.org/GNOME/gnome-shell-extensions), [Removable Drive Menu](https://gitlab.gnome.org/GNOME/gnome-shell-extensions), [Space Bar](https://github.com/christopher-l/space-bar)
+- system exts: [AppIndicator and KStatusNotifierItem Support](https://github.com/ubuntu/gnome-shell-extension-appindicator), [Dash to Dock](https://micheleg.github.io/dash-to-dock/), [Gnome 4x UI Improvements](https://github.com/axxapy/gnome-ui-tune?tab=readme-ov-file), [Gtk4 Desktop Icons NG (DING)](https://gitlab.com/smedius/desktop-icons-ng), [Native Window Placement](https://gitlab.gnome.org/GNOME/gnome-shell-extensions), [Removable Drive Menu](https://gitlab.gnome.org/GNOME/gnome-shell-extensions), [Space Bar](https://github.com/christopher-l/space-bar)
 
 [wallpaper](./assets/amegakure.gif) - [author](https://www.artstation.com/artwork/6gPox)
 
