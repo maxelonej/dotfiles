@@ -90,7 +90,6 @@ alias list='eza --icons=always --color=always -a'
 alias ls='ls --color'
 alias ll='eza --icons=always --color=always -la'
 alias c='clear'
-alias nv='nvim'
 alias py='python3'
 alias anime='ani-cli'
 alias live='live-server'
@@ -100,3 +99,4 @@ eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
 export PATH="/home/maxelonej/.config/herd-lite/bin:$PATH"
 export PHP_INI_SCAN_DIR="/home/maxelonej/.config/herd-lite/bin:$PHP_INI_SCAN_DIR"
+export MANPAGER='nvim +Man!'
