@@ -20,12 +20,20 @@ zsh add-ons: [zinit](https://github.com/zdharma-continuum/zinit), [powerlevel10k
 [wallpaper source](https://www.artstation.com/artwork/6gPox)
 
 <details close>
-<summary><samp>Setup (Arch based)</samp></summary><br>
+<summary><samp>Setup</samp></summary><br>
 
 1. Install packages
 
+Arch:
+
 ```bash
 sudo pacman -S git alacritty zsh stow neovim eza bat fzf fd ripgrep zoxide
+```
+
+Ubuntu:
+
+```bash
+sudo apt install zsh neovim eza bat fzf fd-find ripgrep zoxide
 ```
 
 2. Optional: Backup directories that will be changed (if you want to stow all dotfiles)
