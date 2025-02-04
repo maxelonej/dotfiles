@@ -100,3 +100,5 @@ eval "$(zoxide init --cmd cd zsh)"
 export PATH="/home/maxelonej/.config/herd-lite/bin:$PATH"
 export PHP_INI_SCAN_DIR="/home/maxelonej/.config/herd-lite/bin:$PHP_INI_SCAN_DIR"
 export MANPAGER='nvim +Man!'
+export EDITOR=nvim
+export VISUAL=nvim
