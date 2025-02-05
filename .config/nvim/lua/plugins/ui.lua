@@ -6,7 +6,7 @@ return {
     opts = function()
       local opts = {
         options = {
-          theme = "auto",
+          theme = "base16",
           -- section_separators = { left = "", right = "" },
           -- section_separators = " ",
           component_separators = "",
@@ -19,11 +19,11 @@ return {
               icons_enabled = true,
             },
           },
-          lualine_b = { "filename", "branch" },
+          lualine_b = { "branch", "diff", "windows" },
           -- lualine_c = { "fileformat" },
           lualine_c = {},
           lualine_x = {},
-          lualine_y = { "filetype", "progress" },
+          lualine_y = { "searchcount", "selectioncount", "progress" },
           lualine_z = { "location" },
         },
         inactive_sessions = {
