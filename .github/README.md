@@ -27,13 +27,22 @@ zsh add-ons: [zinit](https://github.com/zdharma-continuum/zinit), [powerlevel10k
 Arch
 
 ```bash
-sudo pacman -S git alacritty zsh stow neovim eza bat fzf fd ripgrep zoxide
+sudo pacman -S git lazygit alacritty zsh stow neovim eza bat fzf fd ripgrep zoxide
 ```
 
 Ubuntu
 
 ```bash
 sudo apt install git alacritty zsh stow neovim eza bat fzf fd-find ripgrep zoxide
+```
+
+Ubuntu lazygit installation
+
+```sh
+LAZYGIT_VERSION=$(curl -s "https://api.github.com/repos/jesseduffield/lazygit/releases/latest" | \grep -Po '"tag_name": *"v\K[^"]*')
+curl -Lo lazygit.tar.gz "https://github.com/jesseduffield/lazygit/releases/download/v${LAZYGIT_VERSION}/lazygit_${LAZYGIT_VERSION}_Linux_x86_64.tar.gz"
+tar xf lazygit.tar.gz lazygit
+sudo install lazygit -D -t /usr/local/bin/
 ```
 
 2. Optional: Backup directories that will be changed (if you want to stow all dotfiles)
