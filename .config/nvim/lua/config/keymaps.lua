@@ -25,4 +25,9 @@ keymap.set("n", "<leader>n", ":Neotree float reveal toggle<CR>", opts)
 
 -- Close current buffer
 keymap.set("n", "<C-b>", ":bdelete<CR>", opts)
+-- Go to next buffer
+keymap.set("n", "<Tab>", ":bNext<CR>", opts)
+keymap.set("n", "<S-Tab>", ":bprevious<CR>", opts)
+-- { "<Tab>", "<Cmd>BufferLineCycleNext<CR>", desc = "Next tab" },
+-- { "<S-Tab>", "<Cmd>BufferLineCyclePrev<CR>", desc = "Prev tab" },
 -- }

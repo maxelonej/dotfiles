@@ -1,12 +1,11 @@
 return {
-
   -- Lualine
   {
     "nvim-lualine/lualine.nvim",
     opts = function()
       local opts = {
         options = {
-          theme = "base16",
+          theme = "ayu_dark",
           -- section_separators = { left = "", right = "" },
           -- section_separators = " ",
           component_separators = "",
@@ -48,7 +47,13 @@ return {
       { "<Tab>", "<Cmd>BufferLineCycleNext<CR>", desc = "Next tab" },
       { "<S-Tab>", "<Cmd>BufferLineCyclePrev<CR>", desc = "Prev tab" },
     },
-    opts = {},
+    opts = {
+      options = {
+        mode = "tabs",
+        show_buffer_close_icons = false,
+        show_close_icon = false,
+      },
+    },
   },
 
   -- LazyGit integration with Telescope
