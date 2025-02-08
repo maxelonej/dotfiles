@@ -93,6 +93,7 @@ alias c='clear'
 alias py='python3'
 alias anime='ani-cli'
 alias live='live-server'
+alias lg='lazygit'
 
 # Shell integrations
 eval "$(fzf --zsh)"
