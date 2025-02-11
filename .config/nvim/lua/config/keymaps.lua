@@ -31,9 +31,6 @@ keymap.set("n", "<C-b>", function()
 end, opts)
 
 -- Go to next buffer
-keymap.set("n", "<Tab>", ":bNext<CR>", opts)
+keymap.set("n", "<Tab>", ":bn<CR>", opts)
 -- Go to previous buffer
-keymap.set("n", "<S-Tab>", ":bprevious<CR>", opts)
--- { "<Tab>", "<Cmd>BufferLineCycleNext<CR>", desc = "Next tab" },
--- { "<S-Tab>", "<Cmd>BufferLineCyclePrev<CR>", desc = "Prev tab" },
--- }
+keymap.set("n", "<S-Tab>", ":bp<CR>", opts)
