@@ -34,3 +34,5 @@ end, opts)
 keymap.set("n", "<Tab>", ":bn<CR>", opts)
 -- Go to previous buffer
 keymap.set("n", "<S-Tab>", ":bp<CR>", opts)
+
+keymap.set("n", "<leader>cp", ":MarkdownPreview<CR>", opts)
