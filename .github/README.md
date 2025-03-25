@@ -95,8 +95,6 @@ Custom:
 
 <ul>
   <li>Toggle fullscreen mode - F11</li>
-  <li>a</li>
-  <li>a</li>
 </ul>
 
 #### <samp><b>Neovim</b></samp>
