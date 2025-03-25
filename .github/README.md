@@ -1,4 +1,4 @@
-## <samp><b>My comfy developer workflow </b></samp>
+## <samp><b>My comfy developer workflow</b></samp>
 
 <img src="./assets/preview.png" alt="Preview" align="left" width=400>
 
@@ -19,8 +19,7 @@ zsh add-ons: [zinit](https://github.com/zdharma-continuum/zinit), [powerlevel10k
 
 [wallpaper](./assets/amegakure.gif) - [author](https://www.artstation.com/artwork/6gPox)
 
-<details close>
-<summary><samp>Setup</samp></summary><br>
+### <samp><b>Setup</b></samp>
 
 1. Install packages
 
@@ -88,10 +87,26 @@ cd ~/.tmux/plugins/tpm/scripts/
 ./install_plugins.sh
 ```
 
-</details>
+#### <samp><b>Gnome</b></samp>
 
-<details close><summary><samp>Shortcuts</samp></summary><br>
-<details close><summary><samp>Gnome</samp></summary><br> </details>
-<details close><summary><samp>Tmux</samp></summary><br> </details>
-<details close><summary><samp>Neovim</samp></summary><br> </details>
-</details>
+<a href="https://wiki.gnome.org/Design/OS/KeyboardShortcuts">Default Gnome keymaps</a>
+
+Custom:
+
+<ul>
+  <li>Toggle fullscreen mode - F11</li>
+  <li>a</li>
+  <li>a</li>
+</ul>
+
+#### <samp><b>Neovim</b></samp>
+
+<a href="https://tmuxcheatsheet.com/">Default Tmux keymaps</a>
+<a href="https://vim.rtorr.com/">Default Vim keymaps</a>
+<a href="https://www.lazyvim.org/keymaps">LazyVim keymaps</a>
+
+Custom:
+
+<ul>
+  <li><code>&lt;leader&gt;cp</code> for <code>:MarkdownPreview</code></li>
+</ul>
