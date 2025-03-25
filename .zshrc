@@ -103,3 +103,6 @@ export PHP_INI_SCAN_DIR="/home/maxelonej/.config/herd-lite/bin:$PHP_INI_SCAN_DIR
 export MANPAGER='nvim +Man!'
 export EDITOR=nvim
 export VISUAL=nvim
+export QT_QPA_PLATFORMTHEME=qt5ct
+
+neofetch
