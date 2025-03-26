@@ -32,7 +32,7 @@ sudo pacman -S git lazygit alacritty zsh stow neovim eza bat fzf fd ripgrep zoxi
 Ubuntu
 
 ```bash
-sudo apt install git alacritty zsh stow neovim eza bat fzf fd-find ripgrep zoxide
+sudo apt install git alacritty zsh stow neovim eza bat fzf fd-find ripgrep zoxide tmux
 ```
 
 Ubuntu lazygit installation
