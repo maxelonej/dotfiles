@@ -26,7 +26,7 @@ zsh add-ons: [zinit](https://github.com/zdharma-continuum/zinit), [powerlevel10k
 Arch
 
 ```bash
-sudo pacman -S git lazygit alacritty zsh stow neovim eza bat fzf fd ripgrep zoxide
+sudo pacman -S git lazygit alacritty zsh stow neovim eza bat fzf fd ripgrep zoxide lua51 luarocks npm
 ```
 
 Ubuntu
@@ -53,6 +53,7 @@ mv .zshrc .backup_config/
 mv .p10k.zsh .backup_config/
 mv .tmux.conf .backup_config/
 mv .config/alacritty.toml .backup_config/.config/
+mv .config/neofetch .backup_config/.config/
 mv .config/alacritty .backup_config/.config/
 mv .config/nvim .backup_config/.config/
 ```
@@ -84,6 +85,7 @@ zinit self-update
 ```sh
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 cd ~/.tmux/plugins/tpm/scripts/
+tmux source ~/.tmux.conf
 ./install_plugins.sh
 ```
 
