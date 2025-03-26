@@ -1,21 +1,16 @@
 ## <samp><b>My comfy developer workflow</b></samp>
 
-<img src="./assets/preview.png" alt="Preview" align="left" width=400>
+<!-- TODO: <img src="./assets/preview.png" alt="Preview" align="left" width=400> -->
 
-| task                | name                                                    |
-| ------------------- | ------------------------------------------------------- |
-| operating system    | [manjaro](https://manjaro.org/)                         |
-| desktop environment | [gnome](https://help.gnome.org/)                        |
-| terminal            | [alacritty](https://wiki.archlinux.org/title/Alacritty) |
-| shell               | [zsh](https://wiki.archlinux.org/title/Zsh)             |
-| code editor         | [neovim](https://github.com/neovim/neovim)              |
+| task             | name                                        |
+| ---------------- | ------------------------------------------- |
+| operating system | [arch](https://archlinux.org/)              |
+| window manager   | [hyprland](https://hyprland.org)            |
+| terminal         | [kitty](https://sw.kovidgoyal.net/kitty/)   |
+| shell            | [zsh](https://wiki.archlinux.org/title/Zsh) |
+| code editor      | [neovim](https://github.com/neovim/neovim)  |
 
 zsh add-ons: [zinit](https://github.com/zdharma-continuum/zinit), [powerlevel10k](https://github.com/romkatv/powerlevel10k), [syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/tree/master), [auto suggestions](https://github.com/zsh-users/zsh-autosuggestions), [completions](https://github.com/zsh-users/zsh-completions), [fzf tab](https://github.com/Aloxaf/fzf-tab)
-
-[gnome exts](https://extensions.gnome.org/):
-
-- user exts: [window thumbnails](https://extensions.gnome.org/extension/6816/wtmb-window-thumbnails), [hanabi](https://github.com/jeffshee/gnome-ext-hanabi), [OpenWeather Refined](https://extensions.gnome.org/extension/6655/openweather/)
-- system exts: [AppIndicator and KStatusNotifierItem Support](https://github.com/ubuntu/gnome-shell-extension-appindicator), [Dash to Dock](https://micheleg.github.io/dash-to-dock/), [Gnome 4x UI Improvements](https://github.com/axxapy/gnome-ui-tune?tab=readme-ov-file), [Gtk4 Desktop Icons NG (DING)](https://gitlab.com/smedius/desktop-icons-ng), [Native Window Placement](https://gitlab.gnome.org/GNOME/gnome-shell-extensions), [Removable Drive Menu](https://gitlab.gnome.org/GNOME/gnome-shell-extensions), [Space Bar](https://github.com/christopher-l/space-bar)
 
 [wallpaper](./assets/amegakure.gif) - [author](https://www.artstation.com/artwork/6gPox)
 
@@ -90,7 +85,7 @@ tmux source ~/.tmux.conf
 ./install_plugins.sh
 ```
 
-#### <samp><b>Gnome</b></samp>
+#### <samp><b>Hyprland</b></samp>
 
 <a href="https://wiki.gnome.org/Design/OS/KeyboardShortcuts">Default Gnome keymaps</a>
 
