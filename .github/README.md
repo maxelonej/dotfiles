@@ -26,7 +26,8 @@ zsh add-ons: [zinit](https://github.com/zdharma-continuum/zinit), [powerlevel10k
 Arch
 
 ```bash
-sudo pacman -S git lazygit alacritty zsh stow neovim eza bat fzf fd ripgrep zoxide lua51 luarocks npm
+sudo pacman -S git lazygit alacritty zsh stow neovim eza bat fzf fd ripgrep zoxide lua51 luarocks npm pandoc
+sudo npm install -g live-server
 ```
 
 Ubuntu
@@ -108,5 +109,11 @@ Custom:
 Custom:
 
 <ul>
+  <li><code>jj</code> in insert mode for change mode to normal</li>
   <li><code>&lt;leader&gt;cp</code> for <code>:MarkdownPreview</code></li>
+  <li><code>&lt;c-n&gt;</code> / <code>&lt;leader&gt;e</code> / <code>&lt;leader&gt;n</code> for <code>:Neotree float reveal toggle&lt;CR&gt;</CR></code> (explorer/file structure)</li>
+  <li><code>&lt;leader&gt;l</code> for <code>:Lazy&lt;CR&gt;</code></li>
+  <li><code>&lt;leader&gt;m</code> for <code>:Mason&lt;CR&gt;</code></li>
+  <li><code>&lt;Tab&gt;</code> for <code>:bn&lt;CR&gt;</code> (next buffer)</li>
+  <li><code>&lt;S-Tab&gt;</code> for <code>:bp&lt;CR&gt;</code> (previous buffer)</li>
 </ul>
