@@ -89,15 +89,21 @@ tmux source ~/.tmux.conf
 
 Custom shortcuts:
 
+Used instead of default because these keymaps more comfy for me from i3wm
+
 ```conf
-# Used instead of default because these keymaps more comfy for me from i3wm
 bind = $mainMod, Return, exec, $terminal
 bind = $mainMod, Q, killactive,
+```
 
+```
 bind = $mainMod, S, togglesplit, # split
 bind = $mainMod, F, fullscreen, # fullscreen apps
+```
 
-# Move focus with mainMod + vim motion hjkl instead of arrow keys
+Move focus with mainMod + vim motion hjkl instead of arrow keys
+
+```conf
 bind = $mainMod, H, movefocus, l
 bind = $mainMod, L, movefocus, r
 bind = $mainMod, J, movefocus, u
